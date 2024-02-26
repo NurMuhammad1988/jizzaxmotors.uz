@@ -34,7 +34,7 @@ const Navbar = ({theme,setTheme}) => {
     //theme va setTheme darkmode uchun app.jsx faylida qilindi
 
     return (
-        <nav className="shadow-md">
+        <nav className="shadow-md dark:bg-dark dark:text-white duration-1000">
             <div className=" container md:py-0 ">
                 <div className="flex justify-between  items-center">
                     <div>
@@ -61,10 +61,14 @@ const Navbar = ({theme,setTheme}) => {
                     <div>
                         {theme === "dark" ? (
                             <BiSolidSun 
+                            onClick={() => setTheme("light")}
                             className="text-2xl" />
                         ) : (
-                            <BiSolidMoon className="text-2xl" />
+                            <BiSolidMoon
+                            onClick={() => setTheme("dark")}
+                            className="text-2xl" />
                         )}
+
                     </div>
                 </div>
             </div>
