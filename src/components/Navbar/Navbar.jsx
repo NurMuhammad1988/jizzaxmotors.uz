@@ -33,6 +33,8 @@ const NavLinks = [
 const Navbar = ({theme,setTheme}) => {
     //theme va setTheme darkmode uchun app.jsx faylida qilindi
 
+    //tailwindda darkmode yahshi narsa ekan umumiy divlarni textlariga bg-lariga dark tema qo'shib ketish juda oson ekan alohoda css papkalar qilib o'tirish shart emas ekan
+
     return (
         <nav className="shadow-md dark:bg-dark dark:text-white duration-1000">
             <div className=" container md:py-0 ">
