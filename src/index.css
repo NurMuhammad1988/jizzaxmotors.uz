@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    /* background-color: rgb(69, 67, 67); */
+@layer components {
+    .button-outline {
+        @apply rounded-md border-2 border-primary hover:bg-primary/80 hover:text-black duration-500 py-2 px-6 text-primary tracking-wider 
+    }
+    /* @layer components qilib  bitta shunday class berib @apply qilib chaqirib csslar yozilsa keyin jsxni ichiga hohlagan joyga chaqirib qayta qayta isahlatish mumkun ekan bu classni huddi root mediyadey */
 }

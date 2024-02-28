@@ -49,7 +49,7 @@ const Hero = ({theme}) => {
                         <button
                         data-aos="fade-up"
                         data-aos-duration="1500"
-                        className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/60 duration-300 ">Get Started</button>
+                        className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/40 duration-300">Get Started</button>
                     </div>
                 </div>
             </div>
