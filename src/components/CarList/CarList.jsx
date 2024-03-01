@@ -16,7 +16,7 @@ const CarListData = [
         name: "KIA UX",
         price: 140,
         image: car2,
-        aosDelay: "500",
+        aosDelay: "200",
     },
 
     {
@@ -24,7 +24,7 @@ const CarListData = [
         name: "BMW UX",
         price: 100,
         image: car3,
-        aosDelay: "300",
+        aosDelay: "400",
     },
 ];
 
