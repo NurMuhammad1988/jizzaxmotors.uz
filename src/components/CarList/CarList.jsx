@@ -4,6 +4,7 @@ import car2 from "../../assets/car5.png";
 import car3 from "../../assets/car6.png";
 const CarListData = [
     {
+        id:1,
         name: "BMW UX",
         price: 100,
         image: car1,
@@ -11,6 +12,7 @@ const CarListData = [
     },
 
     {
+        id:2,
         name: "KIA UX",
         price: 140,
         image: car2,
@@ -18,6 +20,7 @@ const CarListData = [
     },
 
     {
+        id:3,
         name: "BMW UX",
         price: 100,
         image: car3,
@@ -44,26 +47,26 @@ const CarList = () => {
                 {/* Car listing cards */}
                 <div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
-                        {CarListData.map((data) => {
+                        {CarListData.map((CarListData) => {
                             return (
-                                <div
+                                <div key={CarListData.id}
                                 data-aos="fade-up"
-                                data-aos-delay={data.aosDelay}
+                                data-aos-delay={CarListData.aosDelay}
                                 className="space-y-3 border-2 border-gray-300 hover:border-primary p-3 rounded-xl relative group ">
                                     <div className="w-full h-[120px]">
                                         <img
                                             className="w-full h-[120px] object-contain sm:translate-x-8 group-hover:translate-x-16 duration-700"
-                                            src={data.image}
+                                            src={CarListData.image}
                                             alt=""
                                         />
                                     </div>
                                     <div className="space-y-2">
                                         <h1 className="text-primary font-semibold ">
-                                            {data.name}
+                                            {CarListData.name}
                                         </h1>
 
                                         <div className="flex justify-between items-center text-xl fonts">
-                                            <p>${data.price}/Day</p>
+                                            <p>${CarListData.price}/Day</p>
                                             <a href="#">Details</a>
                                         </div>
                                     </div>
@@ -78,7 +81,8 @@ const CarList = () => {
                 <div className="grid place-content-center mt-8">
                     <button
                     data-aos="fade-up"
-                    className="button-outline">
+                    data-aos-delay="1200"
+                    className="button-outline   ">
                         Get Started
                     </button>
                 </div>
