@@ -20,18 +20,25 @@ const About = () => {
                             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold font-serif">
                                 About us
                             </h1>
-                            <p data-aos="fade-up">
+                            <p data-aos="fade-up"
+                    data-aos-duration="1500"
+                    >
+                                
                                 Lorem ipsum, dolor sit amet consectetur
                                 adipisicing elit. Impedit enim nisi quo
                                 voluptate nobis!
                             </p>
-                            <p data-aos="fade-up">
+                            <p data-aos="fade-up"
+                    data-aos-duration="1500"
+                    >
                                 Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Dignissimos, perspiciatisss.
                             </p>
 
                             <button
                             data-aos="fade-up"
+                    data-aos-duration="1500"
+
                             className="button-outline">
                                 Get Started
                             </button>
