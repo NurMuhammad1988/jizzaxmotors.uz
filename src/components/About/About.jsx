@@ -5,10 +5,7 @@ const About = () => {
         <div className="dark:bg-dark bg-slate-100 dark:text-white duration-300 sm:min-h-[600px] sm:grid sm:place-items-center ">
             <div className="container">
                 <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
-                    <div
-                    data-aos="slide-right"
-                    data-aos-duration="1500"
-                    >
+                    <div data-aos="slide-right" data-aos-duration="1500">
                         <img
                             src={carPng}
                             alt="carPng"
@@ -17,29 +14,27 @@ const About = () => {
                     </div>
                     <div>
                         <div className="space-y-5 sm:p-16 pb-6 ">
-                            <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold font-serif">
+                            <h1
+                                data-aos="fade-up"
+                                className="text-3xl sm:text-4xl font-bold font-serif"
+                            >
                                 About us
                             </h1>
-                            <p data-aos="fade-up"
-                    data-aos-duration="1500"
-                    >
-                                
+                            <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem ipsum, dolor sit amet consectetur
                                 adipisicing elit. Impedit enim nisi quo
                                 voluptate nobis!
                             </p>
-                            <p data-aos="fade-up"
-                    data-aos-duration="1500"
-                    >
+                            <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Dignissimos, perspiciatisss.
                             </p>
 
                             <button
-                            data-aos="fade-up"
-                    data-aos-duration="1500"
-
-                            className="button-outline">
+                                data-aos="fade-up"
+                                data-aos-duration="1500"
+                                className="button-outline"
+                            >
                                 Get Started
                             </button>
                         </div>
