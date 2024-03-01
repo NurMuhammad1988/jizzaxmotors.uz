@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import "aos/dist/aos.css"//bu sahifa refresh bo'lganda  ekranda sekiin ko'rinadigan qileydigan kichik kutubhona buni agar mobodo shu repasitoriyni githubdan qayta yuklaganda ishlamasa qaytadan aosni o'rnatishga to'g'ri kelishi mumkun lekin package jsonda shunday turipti "aos": "^2.3.4" mobodo ishlamasa qaytadan istall qilish kerak bo'ladi
+import "aos/dist/aos.css"; //bu sahifa refresh bo'lganda  ekranda sekiin ko'rinadigan qileydigan kichik kutubhona buni agar mobodo shu repasitoriyni githubdan qayta yuklaganda ishlamasa qaytadan aosni o'rnatishga to'g'ri kelishi mumkun lekin package jsonda shunday turipti "aos": "^2.3.4" mobodo ishlamasa qaytadan istall qilish kerak bo'ladi
 import Aos from "aos";
 import About from "./components/About/About";
+import Services from "./components/Services/Services";
+import CarList from "./components/CarList/CarList";
 
 const App = () => {
     //darkmode uchun qilindi lekin aslida bundan ancha oson usulllari bor tailwindni o'zida
@@ -26,24 +28,25 @@ const App = () => {
 
     //aosni ishlatish
 
-React.useEffect(() =>{
-    Aos.init({
-        offset:100,
-        duration:800,
-        easing:"ease-in-sine",
-        delay:100,
-    })  
-    Aos.refresh()
-}, [])
+    React.useEffect(() => {
+        Aos.init({
+            offset: 100,
+            duration: 800,
+            easing: "ease-in-sine",
+            delay: 100,
+        });
+        Aos.refresh();
+    }, []);
 
     //aosni ishlatish
-
 
     return (
         <div>
             <Navbar theme={theme} setTheme={setTheme} />
             <Hero theme={theme} />
-            <About/> 
+            <About />
+            <Services />
+            <CarList />
         </div>
     );
 };

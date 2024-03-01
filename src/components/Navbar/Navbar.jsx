@@ -4,7 +4,7 @@ import { BiSolidMoon, BiSolidSun } from "react-icons/bi";
 //https://react-icons.github.io/react-icons/ shu saytda react uchun tayyor iconlar bor lekin buni terminalda chaqirish kerak ekan npm install react-icons --save <shunday ko'rinishda agar icon bittadan ko'p kerak bo'lsa >manabunday ko'rinishda yuklab qo'yish kerey npm install @react-icons/all-files --save lekin bunda local failni hajmi oshar ekan lekin har qanday iconni nomini yozsa o'zi podkas berib o'rnatib beradi
 
 const NavLinks = [
-    //dynamic failni shunday qilib o'zigakerakli joyda ochib qo'ysaham bo'larkan import qilshxam shart bo'masakan
+    //dynamic failni shunday qilib o'ziga kerakli joyda ochib qo'ysaham bo'larkan import qilshxam shart bo'masakan
     {
         id: "1",
         name: "HOME",
