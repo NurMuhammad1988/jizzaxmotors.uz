@@ -84,7 +84,7 @@ const CarList = () => {
                 <div className="grid place-content-center mt-8">
                     <button
                         data-aos="fade-up"
-                        data-aos-delay="800"
+                        data-aos-delay="600"
                         className="button-outline   "
                     >
                         Get Started
