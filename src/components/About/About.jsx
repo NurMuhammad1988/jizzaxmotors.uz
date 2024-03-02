@@ -16,6 +16,7 @@ const About = () => {
                         <div className="space-y-5 sm:p-16 pb-6 ">
                             <h1
                                 data-aos="fade-up"
+                                data-aos-duration="1500"
                                 className="text-3xl sm:text-4xl font-bold font-serif"
                             >
                                 About us
