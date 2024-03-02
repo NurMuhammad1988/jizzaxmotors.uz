@@ -23,7 +23,7 @@ const skillsData = [
         ),
         link: "#",
         description: "lorem ipsum dolr sit amet consecteturadipisicing elit ipsum dolr sit amet consecteturadipisicing elit",
-        aosDelay: "500",
+        aosDelay: "300",
     },
 
     {
@@ -33,7 +33,7 @@ const skillsData = [
         ),
         link: "#",
         description: "lorem ipsum dolr sit amet consecteturadipisicing elit ipsum dolr sit amet consecteturadipisicing elit",
-        aosDelay: "1000",
+        aosDelay: "400",
     },
 ];
 

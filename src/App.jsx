@@ -6,6 +6,7 @@ import Aos from "aos";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 const App = () => {
     //darkmode uchun qilindi lekin aslida bundan ancha oson usulllari bor tailwindni o'zida
@@ -47,8 +48,11 @@ const App = () => {
             <About />
             <Services />
             <CarList />
+            <Testimonial/>
         </div>
     );
 };
+
+// 01:25:47 da  qolgan
 
 export default App;
