@@ -24,26 +24,39 @@ const AppStoreBanner = () => {
                     <div className="space-y-6 max-w-xl mx-auto">
                         <h1
                             data-aos="fade-up"
+                            data-aos-duration="400"
                             className="text-2xl text-center sm:text-4xl font-semibold font-serif"
                         >
                             Get Started with our App
                         </h1>
-                        <p data-aos="fade-up" className="text-center sm:px-20 ">
+                        <p
+                            data-aos="fade-up"
+                            data-aos-delay="200"
+                            className="text-center sm:px-20 "
+                        >
                             Lorem ipsum dolor sit amet, consectetur adipisicing
                             elit. Accusamus qui maxime culpa ipsum id? Est, nam.
                         </p>
 
-                        <div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                            className="flex flex-wrap justify-center items-center gap-4"
+                        >
                             <a href="#">
                                 <img
-                                className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
-                                src={PlayStoreImg} alt="" />
+                                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                                    src={PlayStoreImg}
+                                    alt=""
+                                />
                             </a>
 
                             <a href="#">
-                                <img 
-                                  className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
-                                src={AppStoreImg} alt="" />
+                                <img
+                                    className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
+                                    src={AppStoreImg}
+                                    alt=""
+                                />
                             </a>
                         </div>
                     </div>

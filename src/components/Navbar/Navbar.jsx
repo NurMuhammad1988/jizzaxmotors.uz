@@ -30,13 +30,15 @@ const NavLinks = [
     },
 ];
 
-const Navbar = ({theme,setTheme}) => {
+const Navbar = ({ theme, setTheme }) => {
     //theme va setTheme darkmode uchun app.jsx faylida qilindi
 
     //tailwindda darkmode yahshi narsa ekan umumiy divlarni textlariga bg-lariga dark tema qo'shib ketish juda oson ekan alohoda css papkalar qilib o'tirish shart emas ekan
 
     return (
-        <nav className="shadow-md dark:bg-dark dark:text-white duration-1000">
+        <nav className="shadow-md dark:bg-dark dark:text-white duration-1000 relative z-40">
+            {/* relative ishlatganda z indexlarga jiddiy etibor bilan ishlash kerak ekan bo'masa dark mode va hoverlarda muammo kelib chiqadi */}
+
             <div className=" container md:py-0 ">
                 <div className="flex justify-between  items-center">
                     <div>
@@ -62,15 +64,16 @@ const Navbar = ({theme,setTheme}) => {
 
                     <div>
                         {theme === "dark" ? (
-                            <BiSolidSun 
-                            onClick={() => setTheme("light")}
-                            className="text-2xl" />
+                            <BiSolidSun
+                                onClick={() => setTheme("light")}
+                                className="text-2xl"
+                            />
                         ) : (
                             <BiSolidMoon
-                            onClick={() => setTheme("dark")}
-                            className="text-2xl" />
+                                onClick={() => setTheme("dark")}
+                                className="text-2xl"
+                            />
                         )}
-
                     </div>
                 </div>
             </div>

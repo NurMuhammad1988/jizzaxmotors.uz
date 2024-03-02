@@ -7,9 +7,8 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
-// import { FaAppStore } from "react-icons/fa";
-// import AppStore from "./components/AppStoreBanner/AppStoreBanner";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
     //darkmode uchun qilindi lekin aslida bundan ancha oson usulllari bor tailwindni o'zida
@@ -54,8 +53,11 @@ const App = () => {
             <CarList />
             <Testimonial />
             <AppStoreBanner />
+            <Contact />
         </div>
     );
 };
 
 export default App;
+
+// 01:49:03
