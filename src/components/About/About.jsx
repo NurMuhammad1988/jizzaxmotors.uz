@@ -14,6 +14,7 @@ const About = () => {
                     </div>
                     <div>
                         <div className="space-y-5 sm:p-16 pb-6 ">
+                            {/* data aoslarni tepadagi divga bitta qilib bersaham bo'ladi sal boshqacha chiqadi yani butin div duration bo'ladi birdaniga */}
                             <h1
                                 data-aos="fade-up"
                                 data-aos-duration="1500"
