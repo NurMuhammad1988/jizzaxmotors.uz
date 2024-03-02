@@ -1,6 +1,7 @@
 import React from "react";
 
 const TestimonialsData = [
+    //image:"" shunday turishi sababi pastda mapni ichida
     {
         name: "Dilshad",
         Image: "",

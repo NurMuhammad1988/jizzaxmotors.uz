@@ -7,6 +7,9 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
+// import { FaAppStore } from "react-icons/fa";
+// import AppStore from "./components/AppStoreBanner/AppStoreBanner";
+import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 
 const App = () => {
     //darkmode uchun qilindi lekin aslida bundan ancha oson usulllari bor tailwindni o'zida
@@ -42,17 +45,17 @@ const App = () => {
     //aosni ishlatish
 
     return (
-        <div>
+        <div className="bg-white dark:bg-black dark:text-white">
+            {/* shu divga berilgan darkmode styleni boshqa companentlardan olib tashlab shu joyga qisqagina qilib yozib qo'yish mumkun edi badyga tasir qilavorardi */}
             <Navbar theme={theme} setTheme={setTheme} />
             <Hero theme={theme} />
             <About />
             <Services />
             <CarList />
-            <Testimonial/>
+            <Testimonial />
+            <AppStoreBanner />
         </div>
     );
 };
-
-// 01:25:47 da  qolgan
 
 export default App;
