@@ -9,6 +9,7 @@ import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     //darkmode uchun qilindi lekin aslida bundan ancha oson usulllari bor tailwindni o'zida
@@ -54,6 +55,7 @@ const App = () => {
             <Testimonial />
             <AppStoreBanner />
             <Contact />
+            <Footer/>
         </div>
     );
 };
