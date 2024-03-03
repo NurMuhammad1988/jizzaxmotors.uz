@@ -11,7 +11,7 @@ import {
 
 // 
 
-import { DroidSans_Regular400, DroidSans_Bold700 } from '@expo-google-fonts/droid-sans';
+import { DroidSans_Regular400 } from '@expo-google-fonts/droid-sans';
 // 
 
 
@@ -156,7 +156,7 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span style={{  fontFamily: 'DroidSans_Regular400' }} className="mr-2">
+                                                <span style={{  DroidSans_Regular400 }} className="mr-2">
                                                     &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
