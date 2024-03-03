@@ -96,7 +96,7 @@ const Footer = () => {
                         {/* First col */}
                         <div>
                             <div className="py-8 px-4">
-                                <h1 className="text-xl  font-bold sm:text-left text-justify mb-3">
+                                <h1 className="text-xl  font-bold sm:text-left text-justify mb-3  ">
                                     Important Links
                                 </h1>
                                 <ul className="flex flex-col gap-3">
@@ -106,9 +106,8 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span className="mr-2">
-                                                    {/* &#11162; */}
-                                                    &#x2B9A;
+                                                <span  className="mr-2  droid-sans">
+                                                    &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>
@@ -133,9 +132,8 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span className="mr-2 ">
-                                                    {/* &#11162; */}
-                                                    &#x2B9A;
+                                                <span className="mr-2 droid-sans">
+                                                    &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>
@@ -160,9 +158,8 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span className="mr-2">
-                                                    {/* &#11162; */}
-                                                    &#x2B9A;
+                                                <span className="mr-2 droid-sans">
+                                                    &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>
