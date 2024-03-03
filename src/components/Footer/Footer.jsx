@@ -113,6 +113,8 @@ const Footer = () => {
                                             >
                                                 <span className="mr-2">
                                                     &#11162;
+                                                    &#x2B9A;
+                                                    
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>
