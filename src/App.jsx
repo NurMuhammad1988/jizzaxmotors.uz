@@ -46,7 +46,7 @@ const App = () => {
 
     return (
         <div className="bg-white dark:bg-black dark:text-white">
-            {/* shu divga berilgan darkmode styleni boshqa companentlardan olib tashlab shu joyga qisqagina qilib yozib qo'yish mumkun edi badyga tasir qilavorardi */}
+            {/* shu divga berilgan darkmode styleni boshqa companentlardan olib tashlab shu joyga qisqagina qilib yozib qo'yish mumkun edi bodyga tasir qilavorardi */}
             <Navbar theme={theme} setTheme={setTheme} />
             <Hero theme={theme} />
             <About />
@@ -56,10 +56,13 @@ const App = () => {
             <AppStoreBanner />
             <Contact />
             <Footer/>
+            
         </div>
     );
 };
 
 export default App;
 
-// 01:49:03
+// vite.config.js yahshi ekan tex faqat kerakli packagelarni skachat qilarkan shu sabab tezroq ishlar ekan 
+
+// ishga tushurish npm i va npm run dev buyrug'i bilan bo'ladi
