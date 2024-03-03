@@ -119,7 +119,7 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title }
                                             >
-                                                <span id="font-family_Droid Sans" className="mr-2 ">
+                                                <span id="font-family_Droid" className="mr-2 ">
                                                     &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
