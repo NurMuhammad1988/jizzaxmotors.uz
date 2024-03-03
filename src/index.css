@@ -8,3 +8,7 @@
     }
     /* @layer components qilib  bitta shunday class berib @apply qilib chaqirib csslar yozilsa keyin jsxni ichiga hohlagan joyga chaqirib qayta qayta isahlatish mumkun ekan bu classni huddi root mediyadey */
 }
+
+#font-family_Droid Sans{
+    font-family: 'Droid Sans';font-size: 22px;
+}
