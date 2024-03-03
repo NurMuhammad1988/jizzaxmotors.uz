@@ -8,7 +8,7 @@ import { NavLinks } from "../Navbar/Navbar";
         <div
             className={`${showMenu ? "left-0" : "-left-full"}
         fixed top-0 z-50 bg-white dark:bg-dark
-        h-screen  lg:w-[40%]   md:shadow-current md:bg-slate-100  rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
+        h-screen  lg:w-[40%] md:w-[40%]  md:shadow-current md:bg-slate-100 rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
         >
             <div className="card ">
                 <div className="flex items-center justify-start gap-4">
@@ -19,8 +19,8 @@ import { NavLinks } from "../Navbar/Navbar";
                     </div>
                 </div>
                 {/* Links */}
-                <nav className="mt-3">
-                    <ul className="space-y-2 text-xl ">
+                <nav className="mt-10 ">
+                    <ul className="space-y-6 text-xl ">
                         {NavLinks.map((data) => (
                             <li key={data.id}>
                                 <a
@@ -35,7 +35,7 @@ import { NavLinks } from "../Navbar/Navbar";
                 </nav>
             </div>
             {/* Footer */}
-            <div>
+            <div className="">
                 <h1 >
                     Made with 🖤 by_
                     <a className="hover:text-cyan-600"

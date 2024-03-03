@@ -1,8 +1,6 @@
 import React from "react";
 import {
-    FaFacebook,
     FaInstagram,
-    FaLinkedin,
     FaLocationArrow,
     FaMobileAlt,
     FaTelegramPlane,
@@ -39,7 +37,7 @@ const Footer = () => {
             <div className="container ">
                 <div className="grid md:grid-cols-3 py-5">
                     {/* company details */}
-                    <div className="py-8 px-4">
+                    <div className="py- px-">
                         <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3 gap-3 flex items-center">
                             Car Rental
                         </h1>
@@ -64,7 +62,7 @@ const Footer = () => {
                             </a>
                         </div>
                         {/* Social Handles */}
-                        <div className="flex items-center gap-3 mt-6 space-x-5 ">
+                        <div className="flex items-center gap-2 mt-6 ">
 
                         <a
                                 target="_blank"
@@ -91,13 +89,7 @@ const Footer = () => {
                                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
                             </a>
 
-                            <a href="#">
-                                <FaFacebook className="text-3xl hover:text-primary duration-300" />
-                            </a>
-
-                            <a href="#">
-                                <FaLinkedin className="text-3xl hover:text-primary duration-300" />
-                            </a>
+                            
                         </div>
                     </div>
                     {/* Navlinks */}
