@@ -11,7 +11,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         h-screen w-[60%]  md:hidden rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
         >
             <div className="card ">
-                <div className="flex items-center justify-start gap-3">
+                <div className="flex items-center justify-start gap-4">
                     <FaUserCircle size={50} />
                     <div>
                         <h1>Hello User</h1>
@@ -19,10 +19,10 @@ const ResponsiveMenu = ({ showMenu }) => {
                     </div>
                 </div>
                 {/* Links */}
-                <nav className="mt-12">
-                    <ul className="space-y-4 text-xl">
+                <nav className="mt-5">
+                    <ul  className="space-y-4 text-xl">
                         {NavLinks.map((data) => (
-                            <li>
+                            <li >
                                 <a className=" hover:text-primary" href={data.link}>{data.name}</a>
                             </li>
                         ))}

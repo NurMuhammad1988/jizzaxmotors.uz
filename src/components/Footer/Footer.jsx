@@ -8,7 +8,7 @@ import {
     FaTelegramPlane,
 } from "react-icons/fa";
 
-
+import { SiNetlify } from "react-icons/si";
 
 const FooterLinks = [
     {
@@ -50,7 +50,7 @@ const Footer = () => {
                         <br />
                         <div className="flex  items-center  gap-3">
                             <FaLocationArrow />
-                            <p>Noida, Utter, Pradesh</p>
+                            <p>Noida, Utter, Parker</p>
                         </div>
                         <div className="flex items-center gap-3">
                             <FaMobileAlt />
@@ -64,6 +64,13 @@ const Footer = () => {
                         </div>
                         {/* Social Handles */}
                         <div className="flex items-center gap-3 mt-6  ">
+                            <a
+                                target="_blank"
+                                href="https://app.netlify.com/teams/nurmuhammad1988/overview"
+                            >
+                                <SiNetlify className="text-3xl hover:text-primary duration-300" />
+                            </a>
+
                             <a
                                 target="_blank"
                                 href="https://t.me/NurMuhammad_1416"
@@ -125,7 +132,7 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span  className="mr-2 ">
+                                                <span className="mr-2 ">
                                                     &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
