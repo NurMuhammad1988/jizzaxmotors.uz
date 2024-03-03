@@ -7,7 +7,7 @@ import ResponsiveMenu from "../ResponsiveMenu/ResponsiveMenu";
 
 //https://react-icons.github.io/react-icons/ shu saytda react uchun tayyor iconlar bor lekin buni terminalda chaqirish kerak ekan npm install react-icons --save <shunday ko'rinishda agar icon bittadan ko'p kerak bo'lsa >manabunday ko'rinishda yuklab qo'yish kerey npm install @react-icons/all-files --save lekin bunda local failni hajmi oshar ekan lekin har qanday iconni nomini yozsa o'zi podkas berib o'rnatib beradi
 
-const NavLinks = [
+export const NavLinks = [
     //dynamic failni shunday qilib o'ziga kerakli joyda ochib qo'ysaham bo'larkan import qilshxam shart bo'masakan
 
     {
@@ -70,38 +70,40 @@ const Navbar = ({ theme, setTheme }) => {
                                     </a>
                                 </li>
                             ))}
+                            {/* Dark Mode Icons */}
+                            <div>
+                                {theme === "dark" ? (
+                                    <BiSolidSun
+                                        onClick={() => setTheme("light")}
+                                        className="text-2xl"
+                                    />
+                                ) : (
+                                    <BiSolidMoon
+                                        onClick={() => setTheme("dark")}
+                                        className="text-2xl"
+                                    />
+                                )}
+                            </div>
                         </ul>
                     </div>
-                    {/* Dark Mode Icons */}
-                    <div>
-                        {theme === "dark" ? (
-                            <BiSolidSun
-                                onClick={() => setTheme("light")}
-                                className="text-2xl"
+                    <div className="flex items-center gap-4 md:hidden">
+                        {/* Mobile Hamburger menu (icon!) */}
+                        {showMenu ? (
+                            <HiMenuAlt1
+                                onClick={togglemenu}
+                                size={30}
+                                className="cursor-pointer
+                            transition-all"
                             />
                         ) : (
-                            <BiSolidMoon
-                                onClick={() => setTheme("dark")}
-                                className="text-2xl"
+                            <HiMenuAlt3
+                                onClick={togglemenu}
+                                size={30}
+                                className="cursor-pointer
+                            transition-all"
                             />
                         )}
                     </div>
-                    {/* Mobile Hamburger menu (icon!) */}
-                    {showMenu ? (
-                        <HiMenuAlt1
-                            onClick={togglemenu}
-                            size={30}
-                            className="cursor-pointer
-                            transition-all"
-                        />
-                    ) : (
-                        <HiMenuAlt3
-                            onClick={togglemenu}
-                            size={30}
-                            className="cursor-pointer
-                            transition-all"
-                        />
-                    )}
                 </div>
             </div>
             <ResponsiveMenu showMenu={showMenu} />
