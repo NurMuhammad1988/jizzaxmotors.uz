@@ -10,7 +10,7 @@ const bannerImg = {
     backgroundPosition: "center",
     height: "100%",
     width: "100%",
-    // shunday qilibham alohida style bersa bo'ladi
+    // shunday qilibham alohida style bersa bo'ladi yani o'zgaruvchi ochib objectni ichiga yzish kerak
 };
 
 const AppStoreBanner = () => {

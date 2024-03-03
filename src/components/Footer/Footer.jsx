@@ -88,8 +88,6 @@ const Footer = () => {
                             <a href="#">
                                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
                             </a>
-
-                            
                         </div>
                     </div>
                     {/* Navlinks */}

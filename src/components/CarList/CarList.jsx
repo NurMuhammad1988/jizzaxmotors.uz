@@ -2,6 +2,7 @@ import React from "react";
 import car1 from "../../assets/car1.png";
 import car2 from "../../assets/car5.png";
 import car3 from "../../assets/car6.png";
+
 const CarListData = [
     {
         id: 1,
@@ -80,7 +81,6 @@ const CarList = () => {
                     </div>
                 </div>
                 {/* end of car listing cards */}
-
                 <div className="grid place-content-center mt-8">
                     <button
                         data-aos="fade-up"

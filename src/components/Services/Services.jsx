@@ -37,7 +37,6 @@ const skillsData = [
     },
 ];
 
-
 const Services = () => {
     return (
         <div className="py-14 dark:bg-black dark:text-white sm:min-h-[][600px] sm:grid sm:place-items-center">

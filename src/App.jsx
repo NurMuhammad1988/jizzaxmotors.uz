@@ -56,7 +56,6 @@ const App = () => {
             <AppStoreBanner />
             <Contact />
             <Footer/>
-            
         </div>
     );
 };
@@ -70,6 +69,5 @@ export default App;
 //balki domenga haqiqiy saytga deploy qilinganda npm run build buyrug'i kerak bo'lar???
 
 //lekin netlifiyga manual yani qo'lda tashlaganda dist papkani o'zini tashlasa bo'ldi ekan yani netlifyga bu saytni local holatda deploy qilmoqchi bo'lsam dist npm run build qilib keyin dist papkani drag & dropga tashlashim kerak ekan yani dist papka saytni netlify hohlagan o'qiyolaydigan tushunaolaydigan farmatga keltiradi
-
 
 // ishga tushurish npm i va npm run dev buyrug'i bilan bo'ladi

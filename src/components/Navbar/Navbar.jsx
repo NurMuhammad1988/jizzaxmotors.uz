@@ -36,14 +36,12 @@ export const NavLinks = [
 ];
 
 const Navbar = ({ theme, setTheme }) => {
+    
     const [showMenu, setShowMenu] = useState(false);
 
     const togglemenu = () => {
         setShowMenu(!showMenu);
     };
-
-
-    
 
     //theme va setTheme darkmode uchun app.jsx faylida qilindi
 
@@ -52,7 +50,6 @@ const Navbar = ({ theme, setTheme }) => {
     return (
         <nav className="shadow-md dark:bg-dark dark:text-white duration-1000 relative z-40">
             {/* relative ishlatganda z indexlarga jiddiy etibor bilan ishlash kerak ekan bo'masa dark mode va hoverlarda muammo kelib chiqadi */}
-
             <div className=" container py-3 md:py-0 ">
                 <div className="flex justify-between  items-center">
                     <div>
@@ -60,7 +57,6 @@ const Navbar = ({ theme, setTheme }) => {
                             Car Rental
                         </h1>
                     </div>
-
                     <div className="hidden md:block ">
                         <ul className="flex items-center gap-8">
                             {NavLinks.map((data) => (
@@ -73,26 +69,10 @@ const Navbar = ({ theme, setTheme }) => {
                                     </a>
                                 </li>
                             ))}
-
-                            {/* Dark Mode Icons */}
-                            {/* <div>
-                                {theme === "dark" ? (
-                                    <BiSolidSun
-                                        onClick={() => setTheme("light")}
-                                        className="text-2xl"
-                                    />
-                                ) : (
-                                    <BiSolidMoon
-                                        onClick={() => setTheme("dark")}
-                                        className="text-2xl"
-                                    />
-                                )}
-                            </div> */}
                         </ul>
                     </div>
-
                     <div className="flex items-center gap-4 md:hidde">
-                        {/* mobil format uchun dark mode */}
+                        {/* dark mode */}
                         {theme === "dark" ? (
                             <BiSolidSun
                                 onClick={() => setTheme("light")}
@@ -104,10 +84,9 @@ const Navbar = ({ theme, setTheme }) => {
                                 className="text-2xl"
                             />
                         )}
+                        {/*  dark mode */}
 
-                        {/* mobil format uchun dark mode */}
-
-                            {/* Mobile Hamburger menu (icon!) */}
+                        {/* Mobile Hamburger menu (icon!) */}
                         {showMenu ? (
                             <HiMenuAlt1
                                 onClick={togglemenu}
@@ -124,11 +103,9 @@ const Navbar = ({ theme, setTheme }) => {
                             />
                         )}
                     </div>
-
                 </div>
             </div>
             <ResponsiveMenu showMenu={showMenu} />
-
         </nav>
     );
 };
