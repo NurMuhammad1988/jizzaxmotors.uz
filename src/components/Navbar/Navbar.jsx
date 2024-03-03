@@ -87,6 +87,20 @@ const Navbar = ({ theme, setTheme }) => {
                         </ul>
                     </div>
                     <div className="flex items-center gap-4 md:hidden">
+                        {/* mobil format uchun dark mode */}
+                        {theme === "dark" ? (
+                            <BiSolidSun
+                                onClick={() => setTheme("light")}
+                                className="text-2xl"
+                            />
+                        ) : (
+                            <BiSolidMoon
+                                onClick={() => setTheme("dark")}
+                                className="text-2xl"
+                            />
+                        )}
+                        {/* mobil format uchun dark mode */}
+
                         {/* Mobile Hamburger menu (icon!) */}
                         {showMenu ? (
                             <HiMenuAlt1
