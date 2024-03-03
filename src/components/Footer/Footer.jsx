@@ -5,6 +5,7 @@ import {
     FaLinkedin,
     FaLocationArrow,
     FaMobileAlt,
+    FaTelegramPlane 
 } from "react-icons/fa";
 
 const FooterLinks = [
@@ -52,11 +53,16 @@ const Footer = () => {
                         <div className="flex items-center gap-3">
                             <FaMobileAlt />
 
-                            <a className="mt-2 text-indigo-500" href="tel:+998915900406">+998915900406</a>
+                            <a className="mt-2 hover:text-primary text-indigo-500" href="tel:+998915900406">+998915900406</a>
 
                         </div>
                         {/* Social Handles */}
                         <div className="flex items-center gap-3 mt-6  ">
+
+                        <a target="_blank" href="https://t.me/NurMuhammad_1416">
+                                <FaTelegramPlane className="text-3xl hover:text-primary duration-300" />
+                            </a>
+
                             <a href="#">
                                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
                             </a>
@@ -68,6 +74,8 @@ const Footer = () => {
                             <a href="#">
                                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
                             </a>
+
+                           
                         </div>
                     </div>
                     {/* Navlinks */}
@@ -107,14 +115,12 @@ const Footer = () => {
                                 <ul className="flex flex-col gap-3">
                                     {FooterLinks.map((data) => {
                                         return (
-                                            <li
+                                            <li 
                                                 className="cursor-pointer hover:text-primary duration-300"
-                                                key={data.title}
+                                                key={data.title }
                                             >
-                                                <span className="mr-2">
+                                                <span  className="mr-2 font-serif">
                                                     &#11162;
-                                                    &#x2B9A;
-                                                    
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>

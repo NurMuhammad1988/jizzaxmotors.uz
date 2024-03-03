@@ -8,7 +8,7 @@ const ResponsiveMenu = ({ showMenu }) => {
         <div
             className={`${showMenu ? "left-0" : "-left-full"}
         fixed top-0 z-50 bg-white dark:bg-gray-900
-        h-screen w-[60%] md:hidden rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-16 transition-all duration-300`}
+        h-screen w-[60%]  md:hidden rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
         >
             <div className="card ">
                 <div className="flex items-center justify-start gap-3">
@@ -23,7 +23,7 @@ const ResponsiveMenu = ({ showMenu }) => {
                     <ul className="space-y-4 text-xl">
                         {NavLinks.map((data) => (
                             <li>
-                                <a href={data.link}>{data.name}</a>
+                                <a className=" hover:text-primary" href={data.link}>{data.name}</a>
                             </li>
                         ))}
                     </ul>
@@ -38,6 +38,8 @@ const ResponsiveMenu = ({ showMenu }) => {
                         target="_blank"
                     >
                         Nur
+
+                        <p className="hover:text-primary">GitHub</p>
                     </a>
                 </h1>
             </div>

@@ -116,6 +116,7 @@ const Navbar = ({ theme, setTheme }) => {
                                 className="cursor-pointer
                             transition-all"
                             />
+                            
                         )}
                     </div>
                 </div>
