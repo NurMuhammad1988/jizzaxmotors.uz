@@ -16,7 +16,7 @@ const Footer = () => {
                         </div>
                         <div>
                             {/* <FaMoileAlt/> */}
-                            <a href="">+998 91 590 04 06</a>
+                            <a href="#">+998 91 590 04 06</a>
                         </div>
                     </div>
                 </div>
