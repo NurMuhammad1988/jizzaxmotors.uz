@@ -63,7 +63,7 @@ const Footer = () => {
                             </a>
                         </div>
                         {/* Social Handles */}
-                        <div className="flex items-center gap-3 mt-6  ">
+                        <div className="flex items-center gap-3 mt-6 space-x-5 ">
                             <a
                                 target="_blank"
                                 href="https://app.netlify.com/teams/nurmuhammad1988/overview"
@@ -107,7 +107,8 @@ const Footer = () => {
                                                 key={data.title}
                                             >
                                                 <span className="mr-2">
-                                                    &#11162;
+                                                    {/* &#11162; */}
+                                                    &#x2B9A;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>
@@ -133,7 +134,8 @@ const Footer = () => {
                                                 key={data.title}
                                             >
                                                 <span className="mr-2 ">
-                                                    &#11162;
+                                                    {/* &#11162; */}
+                                                    &#x2B9A;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>
@@ -159,7 +161,8 @@ const Footer = () => {
                                                 key={data.title}
                                             >
                                                 <span className="mr-2">
-                                                    &#11162;
+                                                    {/* &#11162; */}
+                                                    &#x2B9A;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
                                                 <a href={data.link}>

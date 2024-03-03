@@ -22,7 +22,7 @@ const ResponsiveMenu = ({ showMenu }) => {
                 <nav className="mt-5">
                     <ul  className="space-y-4 text-xl">
                         {NavLinks.map((data) => (
-                            <li >
+                            <li key={data.id} >
                                 <a className=" hover:text-primary" href={data.link}>{data.name}</a>
                             </li>
                         ))}
