@@ -5,8 +5,14 @@ import {
     FaLinkedin,
     FaLocationArrow,
     FaMobileAlt,
-    FaTelegramPlane 
+    FaTelegramPlane,
 } from "react-icons/fa";
+
+
+// 
+
+import { DroidSans_Regular400, DroidSans_Bold700 } from '@expo-google-fonts/droid-sans';
+// 
 
 
 const FooterLinks = [
@@ -54,13 +60,19 @@ const Footer = () => {
                         <div className="flex items-center gap-3">
                             <FaMobileAlt />
 
-                            <a className="mt-2 hover:text-primary text-indigo-500" href="tel:+998915900406">+998915900406</a>
-
+                            <a
+                                className="mt-2 hover:text-primary text-indigo-500"
+                                href="tel:+998915900406"
+                            >
+                                +998915900406
+                            </a>
                         </div>
                         {/* Social Handles */}
                         <div className="flex items-center gap-3 mt-6  ">
-
-                        <a target="_blank" href="https://t.me/NurMuhammad_1416">
+                            <a
+                                target="_blank"
+                                href="https://t.me/NurMuhammad_1416"
+                            >
                                 <FaTelegramPlane className="text-3xl hover:text-primary duration-300" />
                             </a>
 
@@ -75,8 +87,6 @@ const Footer = () => {
                             <a href="#">
                                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
                             </a>
-
-                           
                         </div>
                     </div>
                     {/* Navlinks */}
@@ -110,15 +120,15 @@ const Footer = () => {
                         {/* Second col */}
                         <div>
                             <div className="py-8 px-4">
-                                <h1   className="text-xl  font-bold sm:text-left text-justify mb-3">
+                                <h1 className="text-xl  font-bold sm:text-left text-justify mb-3">
                                     Important Links
                                 </h1>
                                 <ul className="flex flex-col gap-3">
                                     {FooterLinks.map((data) => {
                                         return (
-                                            <li 
+                                            <li
                                                 className="cursor-pointer hover:text-primary duration-300"
-                                                key={data.title }
+                                                key={data.title}
                                             >
                                                 <span  className="mr-2 ">
                                                     &#11162;
@@ -146,7 +156,7 @@ const Footer = () => {
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span className="mr-2">
+                                                <span style={{  fontFamily: 'DroidSans_Regular400' }} className="mr-2">
                                                     &#11162;
                                                 </span>
                                                 {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
