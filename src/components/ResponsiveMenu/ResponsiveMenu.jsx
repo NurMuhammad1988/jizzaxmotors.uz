@@ -7,20 +7,20 @@ import { NavLinks } from "../Navbar/Navbar";
     return (
         <div
             className={`${showMenu ? "left-0" : "-left-full"}
-        fixed top-0 z-50 bg-white dark:bg-gray-900
-        h-screen w-[60%] md:w-[20%]  rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
+        fixed top-0 z-50 bg-white dark:bg-dark
+        h-screen  lg:w-[40%]   md:shadow-current md:bg-slate-100  rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
         >
             <div className="card ">
                 <div className="flex items-center justify-start gap-4">
                     <FaUserCircle size={50} />
                     <div>
                         <h1>Hello User</h1>
-                        <h1>Premium user</h1>
+                        <h1 className="text-primary">Premium user</h1>
                     </div>
                 </div>
                 {/* Links */}
-                <nav className="mt-5">
-                    <ul className="space-y-4 text-xl ">
+                <nav className="mt-3">
+                    <ul className="space-y-2 text-xl ">
                         {NavLinks.map((data) => (
                             <li key={data.id}>
                                 <a
@@ -36,7 +36,7 @@ import { NavLinks } from "../Navbar/Navbar";
             </div>
             {/* Footer */}
             <div>
-                <h1 className="">
+                <h1 >
                     Made with 🖤 by_
                     <a className="hover:text-cyan-600"
                         href="https://github.com/NurMuhammad1988/for-jizzax-motors-uz"

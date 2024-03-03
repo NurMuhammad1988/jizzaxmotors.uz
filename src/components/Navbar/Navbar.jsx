@@ -107,10 +107,7 @@ const Navbar = ({ theme, setTheme }) => {
 
                         {/* mobil format uchun dark mode */}
 
-
-
-
-                        {/* Mobile Hamburger menu (icon!) */}
+                            {/* Mobile Hamburger menu (icon!) */}
                         {showMenu ? (
                             <HiMenuAlt1
                                 onClick={togglemenu}
