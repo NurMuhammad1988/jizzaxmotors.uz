@@ -42,6 +42,9 @@ const Navbar = ({ theme, setTheme }) => {
         setShowMenu(!showMenu);
     };
 
+
+    
+
     //theme va setTheme darkmode uchun app.jsx faylida qilindi
 
     //tailwindda darkmode yahshi narsa ekan umumiy divlarni textlariga bg-lariga dark tema qo'shib ketish juda oson ekan alohoda css papkalar qilib o'tirish shart emas ekan
@@ -70,8 +73,9 @@ const Navbar = ({ theme, setTheme }) => {
                                     </a>
                                 </li>
                             ))}
+
                             {/* Dark Mode Icons */}
-                            <div>
+                            {/* <div>
                                 {theme === "dark" ? (
                                     <BiSolidSun
                                         onClick={() => setTheme("light")}
@@ -83,10 +87,11 @@ const Navbar = ({ theme, setTheme }) => {
                                         className="text-2xl"
                                     />
                                 )}
-                            </div>
+                            </div> */}
                         </ul>
                     </div>
-                    <div className="flex items-center gap-4 md:hidden">
+
+                    <div className="flex items-center gap-4 md:hidde">
                         {/* mobil format uchun dark mode */}
                         {theme === "dark" ? (
                             <BiSolidSun
@@ -99,7 +104,11 @@ const Navbar = ({ theme, setTheme }) => {
                                 className="text-2xl"
                             />
                         )}
+
                         {/* mobil format uchun dark mode */}
+
+
+
 
                         {/* Mobile Hamburger menu (icon!) */}
                         {showMenu ? (
@@ -116,12 +125,13 @@ const Navbar = ({ theme, setTheme }) => {
                                 className="cursor-pointer
                             transition-all"
                             />
-                            
                         )}
                     </div>
+
                 </div>
             </div>
             <ResponsiveMenu showMenu={showMenu} />
+
         </nav>
     );
 };

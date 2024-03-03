@@ -19,7 +19,7 @@ const Contact = () => {
                     </div>
                     <div className="grid place-items-center">
                         <a
-                            className="inline-block font-semibold py-2 px-6 bg-primary text-white rounded-lg tracking-wider uppercase hover:bg-primary/80 duration-300"
+                            className="inline-block font-semibold py-2 px-6 bg-primary text-white rounded-lg tracking-wider uppercase hover:bg-primary/80 duration-300 hover:text-black"
                             href="#"
                         >
                             Contact

@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 
 import { SiNetlify } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 const FooterLinks = [
     {
@@ -64,6 +65,14 @@ const Footer = () => {
                         </div>
                         {/* Social Handles */}
                         <div className="flex items-center gap-3 mt-6 space-x-5 ">
+
+                        <a
+                                target="_blank"
+                                href="https://github.com/NurMuhammad1988"
+                            >
+                                <FaGithub className="text-3xl hover:text-primary duration-300" />
+                            </a>
+
                             <a
                                 target="_blank"
                                 href="https://app.netlify.com/teams/nurmuhammad1988/overview"
@@ -99,17 +108,17 @@ const Footer = () => {
                                 <h1 className="text-xl  font-bold sm:text-left text-justify mb-3  ">
                                     Important Links
                                 </h1>
-                                <ul className="flex flex-col gap-3">
+                                <ul className="flex flex-col gap-2">
                                     {FooterLinks.map((data) => {
                                         return (
                                             <li
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span  className="mr-2  droid-sans">
+                                                {/* <span  className="mr-2  droid-sans">
                                                     &#11162;
-                                                </span>
-                                                {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
+                                                </span> */}
+                                              {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
                                                 <a href={data.link}>
                                                     {data.title}
                                                 </a>
@@ -125,17 +134,17 @@ const Footer = () => {
                                 <h1 className="text-xl  font-bold sm:text-left text-justify mb-3">
                                     Important Links
                                 </h1>
-                                <ul className="flex flex-col gap-3">
+                                <ul className="flex flex-col gap-2">
                                     {FooterLinks.map((data) => {
                                         return (
                                             <li
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span className="mr-2 droid-sans">
+                                                {/* <span className="mr-2 droid-sans">
                                                     &#11162;
-                                                </span>
-                                                {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
+                                                </span> */}
+                                              {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
                                                 <a href={data.link}>
                                                     {data.title}
                                                 </a>
@@ -151,17 +160,17 @@ const Footer = () => {
                                 <h1 className="text-xl  font-bold sm:text-left text-justify mb-3">
                                     Important Links
                                 </h1>
-                                <ul className="flex flex-col gap-3">
+                                <ul className="flex flex-col gap-2">
                                     {FooterLinks.map((data) => {
                                         return (
                                             <li
                                                 className="cursor-pointer hover:text-primary duration-300"
                                                 key={data.title}
                                             >
-                                                <span className="mr-2 droid-sans">
+                                                {/* <span >
                                                     &#11162;
-                                                </span>
-                                                {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/  */}
+                                                </span> */}
+                                                {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
                                                 <a href={data.link}>
                                                     {data.title}
                                                 </a>

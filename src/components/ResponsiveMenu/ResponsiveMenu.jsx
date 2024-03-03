@@ -3,12 +3,12 @@ import { FaUserCircle } from "react-icons/fa";
 import { NavLinks } from "../Navbar/Navbar";
 // import { NavLinks } from "../Navbar/Navbar"; shu tepadagi o'zgaruvchi import qilib olib kelindi uyoqdan esa constdan avval export yozib export qilindi
 
-const ResponsiveMenu = ({ showMenu }) => {
+ const ResponsiveMenu = ({ showMenu }) => {
     return (
         <div
             className={`${showMenu ? "left-0" : "-left-full"}
         fixed top-0 z-50 bg-white dark:bg-gray-900
-        h-screen w-[60%]  md:hidden rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
+        h-screen w-[60%] md:w-[20%]  rounded-r-xl shadow-md flex  flex-col justify-between px-8 pb-6 pt-3 transition-all duration-300`}
         >
             <div className="card ">
                 <div className="flex items-center justify-start gap-4">
@@ -20,10 +20,15 @@ const ResponsiveMenu = ({ showMenu }) => {
                 </div>
                 {/* Links */}
                 <nav className="mt-5">
-                    <ul  className="space-y-4 text-xl">
+                    <ul className="space-y-4 text-xl ">
                         {NavLinks.map((data) => (
-                            <li key={data.id} >
-                                <a className=" hover:text-primary" href={data.link}>{data.name}</a>
+                            <li key={data.id}>
+                                <a
+                                    className=" hover:text-primary"
+                                    href={data.link}
+                                >
+                                    {data.name}
+                                </a>
                             </li>
                         ))}
                     </ul>
@@ -31,15 +36,14 @@ const ResponsiveMenu = ({ showMenu }) => {
             </div>
             {/* Footer */}
             <div>
-                <h1>
-                    Made with 🖤 by
-                    <a
+                <h1 className="">
+                    Made with 🖤 by_
+                    <a className="hover:text-cyan-600"
                         href="https://github.com/NurMuhammad1988/for-jizzax-motors-uz"
                         target="_blank"
                     >
                         Nur
-
-                        <p className="hover:text-primary">GitHub</p>
+                        <p className="hover:text-cyan-600">GitHub</p>
                     </a>
                 </h1>
             </div>

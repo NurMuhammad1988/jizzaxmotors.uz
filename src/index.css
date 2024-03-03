@@ -10,7 +10,9 @@
     /* @layer components qilib  bitta shunday class berib @apply qilib chaqirib csslar yozilsa keyin jsxni ichiga hohlagan joyga bu classni chaqirib qayta qayta ishlatish mumkun ekan  huddi root mediyadey */
 }
 
-.droid-sans {
+/* .droid-sans {
     font-family: "Droid Sans", sans-serif;
     font-size: 18px;
-  }
+  } */
+
+  /* bu shrift android browserlar uchun ekan footerdagi strelkachalar androidda ishlamadi chunki uni shriftini sndroid browser o'qiyolmas ekan lekin baribir ishlamadi */
