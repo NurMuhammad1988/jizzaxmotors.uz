@@ -70,4 +70,6 @@ export default App;
 
 //lekin netlifiyga manual yani qo'lda tashlaganda dist papkani o'zini tashlasa bo'ldi ekan yani netlifyga bu saytni local holatda deploy qilmoqchi bo'lsam dist npm run build qilib keyin dist papkani drag & dropga tashlashim kerak ekan yani dist papka saytni netlify hohlagan o'qiyolaydigan tushunaolaydigan farmatga keltiradi
 
+//vitani yana yahshi tomonlaridan biri ham tez ham npm reun buildsizham domenga ulandi server netlifiy 
+
 // ishga tushurish npm i va npm run dev buyrug'i bilan bo'ladi

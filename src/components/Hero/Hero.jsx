@@ -50,7 +50,8 @@ const Hero = ({ theme }) => {
                         >
                             Get Started
                         </button>
-                        {/* shu buttonda bug bor hover bo'lganda rangni foizi kamaymayapti????????? */}
+
+                        <p className="  hover:text-red-700 cursor-pointer duration-300">Darslik sayt faqat dars qilish, tajriba uchun yasalgan</p>
                     </div>
                 </div>
             </div>
