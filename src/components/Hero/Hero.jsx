@@ -51,7 +51,10 @@ const Hero = ({ theme }) => {
                             Get Started
                         </button>
 
-                        <p className="  hover:text-red-700 cursor-pointer duration-300">Darslik sayt faqat dars qilish, tajriba uchun yasalgan</p>
+                        <p 
+                         data-aos="fade-up"
+                         data-aos-duration="1500"
+                        className="  hover:text-red-700 cursor-pointer duration-300">Darslik sayt faqat dars qilish, tajriba uchun yasalgan</p>
                     </div>
                 </div>
             </div>
