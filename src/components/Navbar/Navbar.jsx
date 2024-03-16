@@ -36,7 +36,6 @@ export const NavLinks = [
 ];
 
 const Navbar = ({ theme, setTheme }) => {
-    
     const [showMenu, setShowMenu] = useState(false);
 
     const togglemenu = () => {
@@ -48,17 +47,17 @@ const Navbar = ({ theme, setTheme }) => {
     //tailwindda darkmode yahshi narsa ekan umumiy divlarni textlariga bg-lariga dark tema qo'shib ketish juda oson ekan alohoda css papkalar qilib o'tirish shart emas ekan
 
     return (
-        <nav className="shadow-md dark:bg-dark dark:text-white duration-1000 relative z-40">
+        <nav className=" shadow-md dark:bg-dark dark:text-white duration-1000 relative z-40  ">
             {/* relative ishlatganda z indexlarga jiddiy etibor bilan ishlash kerak ekan bo'masa dark mode va hoverlarda muammo kelib chiqadi */}
-            <div className=" container py-3 md:py-0 ">
+            <div className="  w-[100%] py-3 md:py-0 fixed dark:bg-dark p-8  bg-slate-200">
                 <div className="flex justify-between  items-center">
                     <div>
-                        <h1 className="text-3xl font-bold font-serif">
-                            Car Rental
+                        <h1 className="text-3xl font-bold font-serif cursor-pointer">
+                            Car <strong className="text-primary">Rental</strong>
                         </h1>
                     </div>
                     <div className="hidden md:block ">
-                        <ul className="flex items-center gap-8">
+                        <ul className="flex items-center gap-12">
                             {NavLinks.map((data) => (
                                 <li className="py-4" key={data.id}>
                                     <a
