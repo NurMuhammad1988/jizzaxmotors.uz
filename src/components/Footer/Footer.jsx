@@ -39,7 +39,7 @@ const Footer = () => {
                     {/* company details */}
                     <div className="py- px-">
                         <h1 className="text-xl sm:text-3xl font-bold sm:text-left text-justify mb-3 gap-3 flex items-center">
-                            Car Rental
+                            Car Rental Jizzax
                         </h1>
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing
