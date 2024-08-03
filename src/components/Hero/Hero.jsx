@@ -41,6 +41,7 @@ const Hero = ({ theme }) => {
                             Jizzax Motors 
                         </h2>
 
+                        <h3> Jizzax Motors bilan boshlang</h3>
                         <button
                             data-aos="fade-up"
                             data-aos-duration="1500"
