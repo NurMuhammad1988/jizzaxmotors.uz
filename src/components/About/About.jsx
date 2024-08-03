@@ -20,12 +20,10 @@ const About = () => {
                                 data-aos-duration="1500"
                                 className="text-3xl sm:text-4xl font-bold font-serif"
                             >
-                                About us
+                                Biz haqimizda Jizzax
                             </h1>
                             <p data-aos="fade-up" data-aos-duration="1500">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Impedit enim nisi quo
-                                voluptate nobis!
+                                Jizzaxda Ijaraga mashina olish
                             </p>
                             <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem, ipsum dolor sit amet consectetur
