@@ -35,20 +35,20 @@ const Hero = ({ theme }) => {
                             data-aos-delay="600"
                             className="text-5xl lg:text-7xl font-semibold font-serif"
                         >
-                            Car Rental Jizzax Motors
+                            Car Rental Jizzax Nur
                         </h1>
                         <h2 data-aos="fade-up" data-aos-delay="700">
-                            Jizzax Motors 
+                            Jizzax Nur 
                         </h2>
 
-                        <h3> Jizzax Motors bilan boshlang</h3>
+                        <h3> Jizzax Nur bilan boshlang</h3>
                         
                         <button
                             data-aos="fade-up"
                             data-aos-duration="1500"
                             className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/60 duration-300"
                         >
-                           <h3> Jizzax Motors bilan boshlang</h3>
+                           <h3> Jizzax Nur bilan boshlang</h3>
                         </button>
 
                         <h4

@@ -23,7 +23,8 @@ const About = () => {
                                 Biz haqimizda Jizzax
                             </h1>
                             <p data-aos="fade-up" data-aos-duration="1500">
-                                Jizzaxda Ijaraga mashina olish
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Iusto quibusdam et porro.
                             </p>
                             <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem, ipsum dolor sit amet consectetur
