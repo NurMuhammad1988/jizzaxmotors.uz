@@ -38,17 +38,17 @@ const Hero = ({ theme }) => {
                             Car Rental Jizzax Nur
                         </h1>
                         <h2 data-aos="fade-up" data-aos-delay="700">
-                            Jizzax Nur 
+                            Jizzax Nur
                         </h2>
 
                         <h3> Jizzax Nur bilan boshlang</h3>
-                        
+
                         <button
                             data-aos="fade-up"
                             data-aos-duration="1500"
                             className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/60 duration-300"
                         >
-                           <h3> Jizzax Nur bilan boshlang</h3>
+                            <h3> Jizzax Nur bilan boshlash oson</h3>
                         </button>
 
                         <h4
@@ -56,7 +56,7 @@ const Hero = ({ theme }) => {
                             data-aos-duration="1500"
                             className=" text-red-700 hover:text-gray-600 cursor-pointer duration-300"
                         >
-                            Sayt faqat dars qilish, va tajriba uchun yasalgan... 
+                            Sayt faqat dars qilish, va tajriba uchun yasalgan...
                         </h4>
                     </div>
                 </div>

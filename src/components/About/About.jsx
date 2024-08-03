@@ -20,7 +20,7 @@ const About = () => {
                                 data-aos-duration="1500"
                                 className="text-3xl sm:text-4xl font-bold font-serif"
                             >
-                                Biz haqimizda Jizzax
+                                Biz haqimizda Jizzax Nur
                             </h1>
                             <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem ipsum dolor sit amet consectetur
@@ -36,7 +36,7 @@ const About = () => {
                                 data-aos-duration="1500"
                                 className="button-outline"
                             >
-                                Get Started
+                                Get Started with Jizzax Nur
                             </button>
                         </div>
                     </div>

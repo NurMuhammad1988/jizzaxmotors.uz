@@ -34,7 +34,7 @@ const FooterLinks = [
 const Footer = () => {
     return (
         <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
-            <div className="container ">    
+            <div className="container ">
                 <div className="grid md:grid-cols-3 py-5">
                     {/* company details */}
                     <div className="py- px-">
@@ -63,8 +63,7 @@ const Footer = () => {
                         </div>
                         {/* Social Handles */}
                         <div className="flex items-center gap-2 mt-6 ">
-
-                        <a
+                            <a
                                 target="_blank"
                                 href="https://github.com/NurMuhammad1988"
                             >
@@ -108,7 +107,7 @@ const Footer = () => {
                                                 {/* <span  className="mr-2  droid-sans">
                                                     &#11162;
                                                 </span> */}
-                                              {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
+                                                {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
                                                 <a href={data.link}>
                                                     {data.title}
                                                 </a>
@@ -134,7 +133,7 @@ const Footer = () => {
                                                 {/* <span className="mr-2 droid-sans">
                                                     &#11162;
                                                 </span> */}
-                                              {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
+                                                {/* tepadagi shu narsa &#11162; Unicode belgisi deyilarkan buni chapga o'ngga pastga tepaga qilish mumkun ekan kodini o'zgartirib shu kodni ggoglega yozsang har hillari bor ekan turli tuman linki => https://www.compart.com/en/unicode/ LEKIN ANDROID BROWSER O'QIMAS EKAN SHU UCHUN UDALIT QILINDI  */}
                                                 <a href={data.link}>
                                                     {data.title}
                                                 </a>
