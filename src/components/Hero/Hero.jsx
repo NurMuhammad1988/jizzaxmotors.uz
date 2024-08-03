@@ -35,29 +35,27 @@ const Hero = ({ theme }) => {
                             data-aos-delay="600"
                             className="text-5xl lg:text-7xl font-semibold font-serif"
                         >
-                            Car Rental
+                            Car Rental Jizzax Motors
                         </h1>
-                        <p data-aos="fade-up" data-aos-delay="700">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Delectus amet, id quis expedita quia sapiente
-                            libero maiores voluptatibus!!!
-                        </p>
+                        <h2 data-aos="fade-up" data-aos-delay="700">
+                            Jizzax Motors 
+                        </h2>
 
                         <button
                             data-aos="fade-up"
                             data-aos-duration="1500"
                             className="btn bg-primary text-black px-6 py-2 rounded-md hover:bg-primary/60 duration-300"
                         >
-                            Get Started
+                           <h3> Jizzax Motors bilan boshlang</h3>
                         </button>
 
-                        <p
+                        <h4
                             data-aos="fade-up"
                             data-aos-duration="1500"
                             className=" text-red-700 hover:text-gray-600 cursor-pointer duration-300"
                         >
                             Sayt faqat dars qilish, va tajriba uchun yasalgan... 
-                        </p>
+                        </h4>
                     </div>
                 </div>
             </div>
