@@ -42,7 +42,7 @@ const Footer = () => {
                             Car Rental Jizzax
                         </h1>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            Aug 11. 2024 Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Delectus temporibus voluptatem corrupti ullam
                             rem fuga impedit.
                         </p>
