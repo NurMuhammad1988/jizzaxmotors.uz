@@ -24,11 +24,11 @@ const About = () => {
                             </h1>
                             <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Iusto quibusdam et porro.
+                                adipisicing elit. Iusto quibusdam et porro.,alakop
                             </p>
                             <p data-aos="fade-up" data-aos-duration="1500">
                                 Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Dignissimos, perspiciatisss.
+                                adipisicing elit. Dignissimos, perspiciatisss.m,maksjas
                             </p>
 
                             <button
