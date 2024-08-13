@@ -56,7 +56,7 @@ const Hero = ({ theme }) => {
                             data-aos-duration="1500"
                             className=" text-red-700 hover:text-gray-600 cursor-pointer duration-300"
                         >
-                            Sayt faqat dars qilish, va tajriba uchun yasalgan...
+                            Sayt faqat dars qilish,SEOni o'rganish va tajriba uchun yasalgan...
                         </h4>
                     </div>
                 </div>
