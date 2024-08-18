@@ -77,7 +77,7 @@ const Footer = () => {
 
                             <a
                                 target="_blank"
-                                href="https://t.me/NurMuhammad_1416"
+                                href="https://t.me/yorov_n"
                             >
                                 <FaTelegramPlane className="text-3xl hover:text-primary duration-300" />
                             </a>
